@@ -5,17 +5,23 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .flexible_cntainer{
     display: flex;
-    padding-left: 7%;
     margin-bottom: 150px;
 }
 .fixed_width{
     width: 48%;
+    padding-left: 7%;
 }
 .fixed_width img{
     width: 85%;
-    margin-left: 50px;
+   
+}
+.fixed_width p{
+    width: 520px;
 }
 .text_color{
     color: #ffa500;
